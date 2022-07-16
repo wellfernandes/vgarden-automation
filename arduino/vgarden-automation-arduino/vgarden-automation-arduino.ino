@@ -19,7 +19,7 @@ LiquidCrystal_I2C displayLcd(0x3F, 2, 1, 0, 4, 5, 6, 7, 3, NEGATIVE);
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("Reading the soil moisture...");
+  Serial.println("Vgarden..."); // Reading the soil moisture
 
   //initialize the display with 16 columns x 2 rows or 20,4 if it's the display 20x4
   displayLcd.begin(16, 2);
