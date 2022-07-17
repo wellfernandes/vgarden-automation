@@ -5,9 +5,9 @@
 const int pinSensor = A0;
 
 // moisture percentage
-const int drySoil = 20;
-const int dampSoil = 70;
-const int soakedSoil = 85;
+const int drySoil = 60;
+const int dampSoil = 80;
+const int soakedSoil = 95;
 
 int readValue;  //soil moisture percentage
 
@@ -43,16 +43,20 @@ void loop() {
 
   displayLcd.home();
   displayLcd.setCursor(0, 0);
-  displayLcd.print("Humidade:");
+  displayLcd.print("Humidade:    ");
   displayLcd.setCursor(10, 0);
   displayLcd.print(readValue);
   displayLcd.setCursor(14, 0);
-  displayLcd.print("%");
+  displayLcd.print("% ");
 
   if (readValue <= drySoil) {
     displayLcd.setCursor(0, 1);
-    displayLcd.print("Solo esta seco   ");  //dry soil
-  } else if (readValue > drySoil && readValue < dampSoil) {
+    displayLcd.print("Solo muito seco   ");  //very dry soil
+  }else if (readValue > drySoil && readValue < dampSoil) {
+    displayLcd.setCursor(0, 1);
+    displayLcd.print("Solo pouco seco   ");  //dry soil
+  } 
+  else if (readValue >= dampSoil && readValue < soakedSoil) {
     displayLcd.setCursor(0, 1);
     displayLcd.print("Umidade ideal  ");  //ideal soil
   } else if (readValue >= soakedSoil) {
