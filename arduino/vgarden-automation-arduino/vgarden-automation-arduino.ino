@@ -7,6 +7,9 @@ const int pinSensor = A0;
 // pin used by the relay
 const int pinRelay = 7;
 
+const int pinLedOn = 2;
+const int pinLedOff = 3;
+
 // moisture percentage
 const int drySoil = 60;
 const int dampSoil = 80;
@@ -27,9 +30,9 @@ void setup() {
   Serial.begin(9600);
   Serial.println("Vgarden...");  // Reading the soil moisture
 
+  //Leds On and Off
+  pinMode(pinLedOn, OUTPUT);
   pinMode(pinRelay, OUTPUT);
-  digitalWrite(pinRelay, LOW);
-
 
   // initialize the display with 16 columns x 2 rows or 20,4 if it's the display 20x4
   displayLcd.begin(16, 2);
@@ -64,8 +67,11 @@ void loop() {
     displayLcd.print("Solo muito seco   ");  // very dry soil
     if (irrigationState == 0) {
       irrigationState = 1;
+      digitalWrite(pinLedOn, HIGH);
       digitalWrite(pinRelay, HIGH);
       delay(10000);
+      digitalWrite(pinLedOn, LOW);
+      digitalWrite(pinLedOff, HIGH);
       digitalWrite(pinRelay, LOW);
     }
     digitalWrite(pinRelay, HIGH);
@@ -75,15 +81,18 @@ void loop() {
   } else if (readValue >= dampSoil && readValue < soakedSoil) {
     if (irrigationState == 1) {
       irrigationState = 0;
+      digitalWrite(pinLedOff, HIGH);
       digitalWrite(pinRelay, LOW);
     }
     displayLcd.setCursor(0, 1);
     displayLcd.print("Umidade ideal  ");  // ideal soil
   } else if (readValue >= soakedSoil) {
     irrigationState = 1;
+    digitalWrite(pinLedOff, HIGH);
     displayLcd.setCursor(0, 1);
     displayLcd.print("Solo encharcado   ");  // soggy soil
   } else {
+    digitalWrite(pinLedOff, HIGH);
     displayLcd.setCursor(0, 1);
     displayLcd.print("Erro na leitura   ");  // sensor reading error
   }
