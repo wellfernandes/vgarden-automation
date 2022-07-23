@@ -22,10 +22,10 @@ Através da automatização da irrigação é possível manter o solo mais próx
 * 1 Válvula solenoide 127V com suporte e simples entrada de água
 * 1 Chave alavanca liga/desliga com corrente de trabalho 6A em 125VAC e 3A em 250VAC
 * x Metros de fios flexivél de 1,5mm para instalação interna, chicote para conexão de energia e acionamento da válvula solenoide
-* 1 chapa pequena de acrílico de 2mm ou maior
-* 1 tubo de silicone para vedação do visor
-* 1 plug de tomada macho 10A para conexão de energia
-* 1 plug de tomada fêmea 10A para conexão da fonte 12V
+* 1 Chapa pequena de acrílico de 2mm ou maior
+* 1 Tubo de silicone para vedação do visor
+* 1 Plug de tomada macho 10A para conexão de energia
+* 1 Plug de tomada fêmea 10A para conexão da fonte 12V
 * x Metros de fita adesiva duplaface
 * 2 Prensa cabo nylon 1/4
 * 1 Prensa cabo nylon 3/4
