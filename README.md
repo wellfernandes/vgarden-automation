@@ -14,9 +14,9 @@ Através da automatização da irrigação é possível manter o solo mais próx
 
 * 1 Caixa hermética 200mm x 140mm x 90mm
 * 1 Arduino Uno R3
-* 1 Módulo display lcd 16 x 2 com fundo azul com módulo i2c integrado 5V
-* 1 Relê 5V de acionamento de carga
-* 1 Sensor de umidade de solo resistente a corrosão com tensão de funcionamento dc 3.3v a 12V, corrente de trabalho: <20ma e com corrente de saída: <30ma
+* 1 Módulo display lcd 16 x 2 com fundo azul e módulo i2c integrado 5V
+* 1 Módulo Relê 5V para acionamento de carga
+* 1 Sensor de umidade de solo resistente a corrosão com tensão de funcionamento dc 3.3v a 12V, corrente de trabalho de <20ma e corrente de saída de <30ma
 * 1 Fonte de alimentação 12V 2A
 * 1 Placa PCB 5x7 para circuito eletrônico
 * 1 Válvula solenoide 127V com suporte e simples entrada de água
@@ -27,6 +27,8 @@ Através da automatização da irrigação é possível manter o solo mais próx
 * 1 plug de tomada macho 10A para conexão de energia
 * 1 plug de tomada fêmea 10A para conexão da fonte 12V
 * x Metros de fita adesiva duplaface
+* 2 Prensa cabo nylon 1/4
+* 1 Prensa cabo nylon 3/4
 
 ---
 [Linkedin](https://www.linkedin.com/in/wellitonfernandes/) 😊
