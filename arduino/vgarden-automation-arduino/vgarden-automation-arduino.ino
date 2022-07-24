@@ -33,6 +33,10 @@ void setup() {
   digitalWrite(pinLedOn, LOW);
   digitalWrite(pinLedOff, HIGH);
 
+  //relay pin 7
+  digitalWrite(pinRelay, LOW);
+  pinMode(pinRelay, OUTPUT);
+
   // initialize the display with 16 columns x 2 rows or 20,4 if it's the display 20x4
   displayLcd.begin(16, 2);
   displayLcd.setBacklightPin(3, POSITIVE);  // NEGATIVE is the black letter and dark background
