@@ -34,7 +34,7 @@ void setup() {
   digitalWrite(pinLedOff, HIGH);
 
   //relay pin 7
-  digitalWrite(pinRelay, LOW);
+  digitalWrite(pinRelay, HIGH);
   pinMode(pinRelay, OUTPUT);
 
   // initialize the display with 16 columns x 2 rows or 20,4 if it's the display 20x4
@@ -107,23 +107,23 @@ void loop() {
       displayLcd.print("   Irrigando       ");
       displayLcd.setCursor(0, 1);
       displayLcd.print("   aguarde...      ");
-      digitalWrite(pinRelay, HIGH);
+      digitalWrite(pinRelay, LOW);
       delay(120000);  // 2 min of irrigation
     }
   } else if (readValue > drySoil && readValue < dampSoil) {
-      digitalWrite(pinRelay, LOW);
+      digitalWrite(pinRelay, HIGH);
       digitalWrite(pinLedOn, LOW);
       digitalWrite(pinLedOff, HIGH);
       displayLcd.setCursor(0, 1);
       displayLcd.print("Solo pouco seco   ");  // dry soil
     } else if (readValue >= dampSoil && readValue < soakedSoil) {
-      digitalWrite(pinRelay, LOW);
+      digitalWrite(pinRelay, HIGH);
       digitalWrite(pinLedOn, LOW);
       digitalWrite(pinLedOff, HIGH);
       displayLcd.setCursor(0, 1);
       displayLcd.print("Umidade ideal     ");  // ideal soil
     } else if (readValue >= soakedSoil) {
-      digitalWrite(pinRelay, LOW);
+      digitalWrite(pinRelay, HIGH);
       digitalWrite(pinLedOn, LOW);
       digitalWrite(pinLedOff, HIGH);
       displayLcd.setCursor(0, 1);
