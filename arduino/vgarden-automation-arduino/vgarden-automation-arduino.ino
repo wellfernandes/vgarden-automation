@@ -108,14 +108,24 @@ void loop() {
       displayLcd.setCursor(0, 1);
       displayLcd.print("   aguarde...      ");
       digitalWrite(pinRelay, LOW);
-      delay(120000);  // 2 min of irrigation
+      delay(600000);  // 10 min of irrigation
     }
   } else if (readValue > drySoil && readValue < dampSoil) {
       digitalWrite(pinRelay, HIGH);
       digitalWrite(pinLedOn, LOW);
       digitalWrite(pinLedOff, HIGH);
       displayLcd.setCursor(0, 1);
-      displayLcd.print("Solo pouco seco   ");  // dry soil
+      displayLcd.print("Solo seco          ");  // dry soil
+      delay(10000);
+
+      digitalWrite(pinLedOn, HIGH);
+      digitalWrite(pinLedOff, LOW);
+      displayLcd.setCursor(0, 0);
+      displayLcd.print("   Irrigando       ");
+      displayLcd.setCursor(0, 1);
+      displayLcd.print("   aguarde...      ");
+      digitalWrite(pinRelay, LOW);
+      delay(300000);  // 5 min of irrigation
     } else if (readValue >= dampSoil && readValue < soakedSoil) {
       digitalWrite(pinRelay, HIGH);
       digitalWrite(pinLedOn, LOW);
