@@ -19,7 +19,7 @@ Através da automatização da irrigação é possível manter o solo mais próx
 * 1 Sensor de umidade de solo resistente a corrosão com tensão de funcionamento dc 3.3v a 12V, corrente de trabalho de <20ma e corrente de saída de <30ma
 * 1 Fonte de alimentação 12V 2A
 * 1 Placa PCB 5x7 para circuito eletrônico
-* 1 Válvula solenoide 127V com suporte e simples entrada de água
+* 1 Válvula solenoide 127V com suporte e simples entrada de água ou 1 bomba d’água periférica BP500 127V com potência do Motor de ½ HP
 * 1 Chave alavanca liga/desliga com corrente de trabalho 6A em 125VAC e 3A em 250VAC
 * x Metros de fios flexivél de 1,5mm para instalação interna, chicote para conexão de energia e acionamento da válvula solenoide
 * 1 Chapa pequena de acrílico de 2mm ou maior
@@ -29,6 +29,7 @@ Através da automatização da irrigação é possível manter o solo mais próx
 * x Metros de fita adesiva duplaface
 * 2 Prensa cabo nylon 1/4
 * 1 Prensa cabo nylon 3/4
+* 4 Aspersores para irrigação
 
 ---
 [Linkedin](https://www.linkedin.com/in/wellitonfernandes/) 😊
