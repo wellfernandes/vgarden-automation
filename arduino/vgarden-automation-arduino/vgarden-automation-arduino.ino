@@ -34,7 +34,7 @@ void setup() {
   digitalWrite(pinLedOff, HIGH);
 
   //relay pin 7
-  digitalWrite(pinRelay, HIGH);
+  digitalWrite(pinRelay, HIGH); // relay output configuration (low logic level relay) HIGH is OFF
   pinMode(pinRelay, OUTPUT);
 
   // initialize the display with 16 columns x 2 rows or 20,4 if it's the display 20x4
@@ -47,7 +47,7 @@ void setup() {
 
   displayLcd.home();
   displayLcd.setCursor(0, 0);
-  displayLcd.println("     Vgarden    ");
+  displayLcd.println("     Vgarden     ");
   displayLcd.setCursor(0, 1);
   displayLcd.println("   iniciando...  ");  // intro text - getting started
   delay(10000);
