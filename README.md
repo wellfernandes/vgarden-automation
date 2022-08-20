@@ -20,6 +20,7 @@ Através da automatização da irrigação é possível manter o solo mais próx
 * 1 Fonte de alimentação 12V 2A
 * 1 Placa PCB 5x7 para circuito eletrônico
 * 1 Válvula solenoide 127V com suporte e simples entrada de água ou 1 bomba d’água periférica BP500 127V com potência do Motor de ½ HP
+* 1 Contator TOMZN TOCT1-25 110V de 25A (2 polos normalmente abertos) **necessário somente caso utilize a bomba d’água**
 * 1 Chave alavanca liga/desliga com corrente de trabalho 6A em 125VAC e 3A em 250VAC
 * x Metros de fios flexivél de 1,5mm para instalação interna, chicote para conexão de energia e acionamento da válvula solenoide
 * 1 Chapa pequena de acrílico de 2mm ou maior
