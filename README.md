@@ -33,5 +33,11 @@ Através da automatização da irrigação é possível manter o solo mais próx
 * 1 Prensa cabo nylon 3/4
 * 4 Aspersores para irrigação
 
+## ⚙️ Instalação do equipamento
+
+- [x] O sensor de umidade deve ser instalado próximo a horta em uma profundidade de 0,15 metros
+- [x] Os aspersores simples devem ser instalados respeitando a distância do espaçamento máximo recomendado (exemplo: 12x12 / 18x18), distribuíndo os aspersores de acordo com o radio de ação escolhido
+- [x] Manter a irrigação ativa durante toda o período de cúltivo, para melhor eficiência e desenvolvimento da plantação
+  
 ---
 [Linkedin](https://www.linkedin.com/in/wellitonfernandes/) 😊
