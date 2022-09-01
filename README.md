@@ -19,7 +19,7 @@ Através da automatização da irrigação é possível manter o solo mais próx
 * 1 Sensor de umidade de solo resistente a corrosão com tensão de funcionamento dc 3.3v a 12V, corrente de trabalho de <20ma e corrente de saída de <30ma
 * 1 Fonte de alimentação 12V 2A
 * 1 Placa PCB 5x7 para circuito eletrônico
-* 1 Válvula solenoide 127V com suporte e simples entrada de água ou 1 bomba d’água periférica BP500 127V com potência do Motor de ½ HP
+* 1 Válvula solenoide 127V com suporte e simples entrada de água ou 1 bomba d’água periférica BP500 127V com potência do Motor de ½ HP (a instalação da bomba deve ser acima ou no mesmo nível da água)
 * 1 Contator TOMZN TOCT1-25 110V de 25A (2 polos normalmente abertos) **necessário somente caso utilize a bomba d’água**
 * 1 Dispositivo de proteção EPS 301 bivolt
 * 1 Chave alavanca liga/desliga com corrente de trabalho 6A em 125VAC e 3A em 250VAC
