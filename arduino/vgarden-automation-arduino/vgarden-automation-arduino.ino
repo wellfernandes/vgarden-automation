@@ -50,7 +50,7 @@ void setup() {
   displayLcd.println("     Vgarden     ");
   displayLcd.setCursor(0, 1);
   displayLcd.println("   iniciando...  ");  // intro text - getting started
-  delay(10000);
+  delay(5000);
 
   displayLcd.home();
   displayLcd.setCursor(0, 0);
