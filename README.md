@@ -4,6 +4,10 @@
 
 Projeto de automação para irrigação de horta de alface. 
 
+## 📺 Vídeos do projeto
+
+* [Teste dos aspersores, distribuição da água e humidade do solo](https://youtu.be/WjZSeHNa3O4)
+
 ## 🚀 Descrição
 
 Projeto de automação para irrigação de horta de alface, desenvolvido utilizando placa arduino uno r3, sensor de umidade de solo, relê para acionamento de carga e válvula solenoide.
