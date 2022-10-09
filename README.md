@@ -1,6 +1,6 @@
 # Vgarden automation
 
-![vgarden](img/vgarden-inside.jpeg)
+![vgarden](img/vgarden-interface.png)
 
 Projeto de automação para irrigação de horta de alface. 
 
