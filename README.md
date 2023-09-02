@@ -13,6 +13,7 @@ Através da automatização da irrigação é possível manter o solo mais próx
 ## 📺 Vídeos do projeto
 
 * [Teste dos aspersores, distribuição da água e humidade do solo](https://youtu.be/WjZSeHNa3O4)
+* [Teste de ativação e desligamento do sistema de irrigação](https://youtu.be/Ya4oWUUEdq4)
 
 ## 🛠 Materiais utilizados
 
